@@ -1,0 +1,194 @@
+extends layouts
+
+block contenido 
+
+    .imagen
+        .bg-3
+            .text-centrado 
+                h2(class="text-light text-center fw-bold") La mejor Joyeria en Guadalajara 
+                h3(class="text-light text-center fw-bold") Tienda Online de Fabiola Jimenez
+    
+    main(class="mt-3 mb-3 lista-productos")
+        .container 
+            div(class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4")
+                div(class="col mt-2 mb-2 mt-md-0 mb-md-0")
+                    div(class="card")
+                        img(src="images/Aretes.png" class="card-img-top" alt="Imagen productos")
+                        div(class="card-body")
+                            h4(class="card-title") Arete de oro
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis enim molestias, distinctio totam consequatur doloremque.
+                            p(class="precio") $249
+                            div(class="d-flex agregar gap-2")
+                                a(href="#" data-id="1" class="btn btn-orange text-light agregar-carrito") Agregar al carrito
+                                a(href="#" class="btn btn-primary") Ver producto
+                div(class="col mt-2 mb-2 mt-md-0 mb-md-0")
+                    div(class="card")
+                        img(src="images/anillo.png" class="card-img-top" alt="Imagen productos")
+                        div(class="card-body")
+                            h4(class="card-title") Anillo de oro
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis enim molestias, distinctio totam consequatur doloremque.
+                            p(class="precio") $249
+                            div(class="d-flex agregar gap-2")
+                                a(href="#" data-id="2" class="btn btn-orange text-light agregar-carrito") Agregar al carrito
+                                a(href="#" class="btn btn-primary") Ver producto
+                div(class="col mt-2 mb-2 mt-md-0 mb-md-0")
+                    div(class="card")
+                        img(src="images/cadena.png" class="card-img-top" alt="Imagen productos")
+                        div(class="card-body")
+                            h4(class="card-title") Cadena de oro
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis enim molestias, distinctio totam consequatur doloremque.
+                            p(class="precio") $249
+                            div(class="d-flex agregar gap-2")
+                                a(href="#" data-id="3" class="btn btn-orange text-light agregar-carrito") Agregar al carrito
+                                a(href="#" class="btn btn-primary") Ver producto
+                div(class="col mt-2 mb-2 mt-md-0 mb-md-0")
+                    div(class="card")
+                        img(src="images/anillo1.png" class="card-img-top" alt="Imagen productos")
+                        div(class="card-body")
+                            h4(class="card-title") Anillo de plata
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis enim molestias, distinctio totam consequatur doloremque.
+                            p(class="precio") $249
+                            div(class="d-flex agregar gap-2")
+                                a(href="#" data-id="4" class="btn btn-orange text-light agregar-carrito") Agregar al carrito
+                                a(href="#" class="btn btn-primary") Ver producto
+    
+    div(class="mt-5 mb-5 shadow")
+        div(class="imagenes")
+            div(class="bg-3")
+                div(class="text-centrado")
+                    p(class="text-center text-white fw-bold fs-5 fs-sm-3") Aquí encontraras productos de calidad al mejor precio
+                    p(class="text-center text-white fw-bold fs-5 fs-sm-3") Checa nuestra variedad de productos
+
+    section
+        div(class="container-fluid")
+            div(class="contenido-app")
+                nav(class="tabs")
+                    button(type="button" data-paso="1") Anillos
+                    button(type="button" data-paso="2") Aretes
+                    button(type="button" data-paso="3") Cadenas
+                div(id="paso-1" class="seccion container-fluid")
+                    div(class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4")
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo1.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo1.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto
+                div(id="paso-2" class="seccion container-fluid")
+                    div(class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4")
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo1.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo1.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo1.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo1.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto
+                div(id="paso-3" class="seccion container-fluid")
+                    div(class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4")
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo1.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo1.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo1.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto
+                        div(class="col p-1")
+                            div(class="card")
+                                img(src="images/anillo1.png", alt="Imagen anillo")
+                                div(class="card-body")
+                                    p(class="card-title") Anillo de plata
+                                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptatum ea alias minima id officia et veniam possimus officiis cupiditate tempora dicta...
+                                    p(class="precio") $249
+                                    div(class="d-flex agregar gap-2")
+                                        a(href="#" class="btn btn-orange") Agregar al carrito
+                                        a(href="#" class="btn btn-primary") Ver producto

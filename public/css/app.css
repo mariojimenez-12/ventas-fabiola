@@ -1,0 +1,119 @@
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bg-1 {
+    background-color: #848383;
+}
+
+.bg-2 {
+    background-color: #fca311;
+}
+
+.bg-3 {
+    background-color: #0000008c;
+    height: 30vh;
+}
+
+.bg-4{
+    background-color: rgba(238, 238, 238, 0.507);
+}
+
+.text-centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    flex-direction: column;
+}
+
+.btn-orange {
+    background-color: #fca311;
+    color: #ffffff;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+.text-orange {
+    color: #fca311 !important;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.style-0 {
+    padding: 0;
+    border: none;
+}
+
+.bi-caret-right-fill{
+    color: #fca311;
+}
+
+.imagen {
+    background-image: url(../images/joyeria.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 30vh;
+}
+
+.img-small {
+    width: 5rem;
+}
+
+.tabs{
+    display: flex;
+}
+
+.tabs button{
+    width: 100%;
+    background-color: #fca311;
+    color: #ffffff;
+    border: none;
+    padding: .5rem;
+}
+
+.seccion {
+    display: none;
+}
+
+.mostrar-seccion{
+    display: block;
+    transition: .4s;
+}
+
+.actual{
+    transition: .4s;
+    background-color: #b9811c !important;
+}
+
+.centro{
+    display: grid;
+    place-items: center;
+}
+
+.imagenes{
+    background-image: url(../images/aretes.jpg);
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+body{
+    /* background-image: linear-gradient(to top, #ffecef 0%, #fff 100%); */
+    background-color: #ffffff;
+}

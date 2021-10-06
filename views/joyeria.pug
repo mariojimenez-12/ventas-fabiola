@@ -1,0 +1,17 @@
+extends layouts
+
+block contenido
+
+    main(class="mt-3 mb-3" id="lista-productos")
+        .container 
+            div(class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4")
+                div(class="col mt-2 mb-2 mt-md-0 mb-md-0")
+                    div(class="card")
+                        img(src="images/Aretes.png" class="card-img-top" alt="Imagen productos")
+                        div(class="card-body")
+                            h4(class="card-title") Arete de oro
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis enim molestias, distinctio totam consequatur doloremque.
+                            p(class="precio") $249
+                            div(class="d-flex gap-2")
+                                a(href="#" data-id="1" class="btn btn-orange text-light agregar-carrito") Agregar al carrito
+                                a(href="#" class="btn btn-primary") Ver producto
